@@ -23,10 +23,10 @@ endif
 all: $(NAME)
 
 %.o: %.c $(HEADER)
-	$(CC) -c $(CFLAGS) -o $@ $<
+	@$(CC) -c $(CFLAGS) -o $@ $<
 
 $(NAME): $(OBJS)
-	ar -ru $(NAME) $^
+	@ar -ru $(NAME) $^
 
 bonus:
 	@$(MAKE) WITH_BONUS=1
