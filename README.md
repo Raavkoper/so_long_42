@@ -10,8 +10,12 @@ Pixelart has been made for the game. The images are converted to xpm files and t
 
 ## How to play
 
+- compile the game using `make` in the root directory, after this you can run the game using `./so_long <maps/map#.ber>`
+
 - You can move around using `WASD`
 
 - Dont get eaten by the wolf
 
 - Collect all the collectables, if this isn't done the exit will not open
+
+- Exit the game using `ESC`
